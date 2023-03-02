@@ -1,7 +1,7 @@
-*{
-    margin: 0px;
+*{  margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body{
@@ -12,10 +12,13 @@ body{
 
 header{
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 h1{
     color: #e53170;
+    margin-bottom: 20px;
 }
 
 .container{
@@ -24,6 +27,7 @@ h1{
 }
 
 img{
+    margin-right: 15px;
     float: left;
     height: 5rem;
 }
