@@ -1,8 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body{
     background-color: aquamarine;
+    margin: auto;
+    width: 80%;    
+}
+
+header{
     text-align: center;
 }
 
 h1{
     color: red;
+}
+
+.container{
+    background-color: lightgrey;
+
+}
+
+img{
+    float: left;
+    height: 5rem;
+}
+
+.marco {
+    height: 5rem;
+}
+
+.element{
+    background-color: beige;
+    float: left;
+    width: calc(33% - 15px);
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.clearfix {
+    clear: both;
 }
